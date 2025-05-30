@@ -3,7 +3,7 @@
 $servername = "database-lab-v2.cndynac4jyld.us-east-1.rds.amazonaws.com";
 $username_db = "admin";
 $password_db = "anhtu123";
-$dbname = "database-lab-v2";
+$dbname = "myDB";
 
 // Tạo kết nối đến database
 $conn = new mysqli($servername, $username_db, $password_db, $dbname);
